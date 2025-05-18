@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Şərifova Zümray</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cv-container">
+    <div class="sidebar">
+        <img src="photos/profile.jpg" alt="Photo" class="profile">
+
+        <h2>Şəxsi məlumatlar</h2>
+        <hr>
+        <p><img src="photos/calendar.png" alt="ikon" class="icon"> <span id="date"></span><button id="edit-date-btn" class="edit-btn">Edit</button></p>
+        <p><img src="photos/phone.png" alt="ikon" class="icon"> <span id="phone"></span></p>
+        <p><img src="photos/email.png" alt="ikon" class="icon"> <span id="email"></span><button id="edit-email-btn" class="edit-btn">Edit</button></p>
+        <p><img src="photos/location.png" alt="ikon" class="icon"> <span id="location"></span></p>
+
+        <div class="Bacarıqlar">
+          <h2>Bacarıqlar</h2>
+          <hr>
+          <ul id="skills-list">
+            </ul>
+          <div class="input-group">
+            <input type="text" id="new-skill-input" placeholder="Yeni bacarıq">
+            <button id="add-skill-btn">Əlavə Et</button>
+          </div>
+        </div>
+
+        <div class="Dillər">
+          <h2>Dillər</h2>
+          <hr>
+          <ul id="languages-list">
+            </ul>
+          <div class="input-group">
+            <input type="text" id="new-language-input" placeholder="Dil">
+            <input type="text" id="new-language-level-input" placeholder="Səviyyə">
+            <button id="add-language-btn">Əlavə Et</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="content">
+      <h1 id="name"></h1>
+      <h3 id="status"></h3>
+
+      <div class="accordion">
+        <button class="accordion-btn">Təhsil</button>
+        <div class="accordion-panel">
+          <div id="education-content">
+            <p>Qəbələ rayon Həmzəlli kənd tam orta məktəbi (2013–2024)</p>
+            <p>Azərbaycan Texniki Universiteti - İnformasiya Təhlükəsizliyi (2024–2028)</p>
+          </div>
+          <button id="edit-education-btn" class="edit-btn">Edit</button>
+        </div>
+
+        <button class="accordion-btn">Şəxsi Keyfiyyətlər</button>
+        <div class="accordion-panel">
+          <ul id="personal-qualities-list">
+            </ul>
+            <div class="input-group">
+              <input type="text" id="new-personal-quality-input" placeholder="Yeni bacarıq">
+              <button id="add-personal-quality-btn">Əlavə Et</button>
+            </div>
+        </div>
+
+        <button class="accordion-btn">Haqqımda</button>
+        <div class="accordion-panel">
+          <p id="about-content">
+            </p>
+            <button id="edit-about-btn" class="edit-btn">Edit</button>
+        </div>
+
+        <button class="accordion-btn">İş təcrübəsi</button>
+        <div class="accordion-panel">
+          <p id="experience-content">
+            </p>
+            <button id="edit-experience-btn" class="edit-btn">Edit</button>
+        </div>
+
+        <button class="accordion-btn">Hobbi və Maraqlar</button>
+        <div class="accordion-panel">
+          <ul id="hobbies-list">
+            </ul>
+          <div class="input-group">
+            <input type="text" id="new-hobby-input" placeholder="Yeni hobbi">
+            <button id="add-hobby-btn">Əlavə Et</button>
+          </div>
+        </div>
+        <button id="save-to-localstorage-btn" class="edit-btn">Save to localstorage</button>
+        <button id="reset-localstorage-btn" class="edit-btn">Reset localstorage</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

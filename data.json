@@ -1,0 +1,46 @@
+{
+    "Şəxsi məlumatlar": {
+      "Ad": "Şərifova Zümray",
+      "Status": "Tələbə",
+      "Doğum tarixi": "16.07.2007",
+      "Telefon": "051-627-33-55",
+      "Email": "zumraysherifova@gmail.com",
+      "Ünvan": "Bakı şəhəri, Yasamal rayonu, Mətbuat prospekti 56"
+    },
+    "Bacarıqlar": [
+      "Linux əməliyyat sistemi ilə işləmək",
+      "Proqramlaşdırma dilləri (Python, C++ və s.)",
+      "Frontend Texnologiyaları (HTML, CSS və s.)",
+      "Ofis Proqramları (Word, Excel, PowerPoint)",
+      "Komanda ilə işləmək və ünsiyyət bacarığı",
+      "Zamanı düzgün idarə etmək və planlama bacarığı"
+    ],
+    "Dillər": [
+      { "Dil": "English", "Səviyyə": "Elementary" },
+      { "Dil": "Türk", "Səviyyə": "Çox yaxşı" },
+      { "Dil": "Azərbaycan", "Səviyyə": "Çox yaxşı" }
+    ],
+    "Təhsil": [
+      { "məktəb": "Qəbələ rayon Həmzəlli kənd tam orta məktəbi", "müddət": "(2013–2024)" },
+      { "universitet": "Azərbaycan Texniki Universiteti", "ixtisas": "İnformasiya Təhlükəsizliyi", "müddət": "(2024–2028)" }
+    ],
+    "Şəxsi Keyfiyyətlər": [
+      "Yüksək məsuliyyət və etibarlılıq",
+      "Yeni biliklər öyrənməyə və inkişaf etdirməyə açıq",
+      "Planlı və məqsədyönlü şəkildə işləmək",
+      "Yaradıcı yanaşma və problem həll etmə bacarığı",
+      "Komandada işləmək və müstəqil qərarlar verə bilmək",
+      "Sakit, amma effektiv ünsiyyət bacarığı",
+      "Təhlükəsizlik və məlumat mühafizəsi mövzusunda diqqətçil",
+      "Gərgin şəraitdə sakit qalaraq səmərəli nəticə əldə edə bilmək"
+    ],
+    "Haqqımda": "Özünü inkişaf etdirməyə çalışan,məsuliyyətli və səbirli bir insanam.Hal-hazırda informasiya təhlükəsizliyi sahəsində təhsil alıram və bu sahədə peşəkar olmaq üçün daim yeni biliklər öyrənməyə çalışıram.Texnologiyalara marağım böyükdür və praktiki təcrübə qazanmaq üçün fərdi layihələr üzərində işləyirəm. Komandada işləməyi bacarıram, amma müstəqil işləyərkən də məsuliyyətlə yanaşıram. Eyni zamanda sakit və diqqətli xarakterə sahibəm.",
+    "İş təcrübəsi": "Yoxdur",
+    "Hobbi və Maraqlar": [
+      "Kitab oxumaq və yeni biliklər əldə etmək",
+      "Musiqi dinləmək",
+      "Xarici dillər öyrənmək",
+      "Texnologiya və kibertəhlükəsizlik sahəsində araşdırmalar aparmaq",
+      "Yemək bişirməyə maraq göstərmək"
+    ]
+}
